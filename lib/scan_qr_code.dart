@@ -26,7 +26,7 @@ class _ScanQRCodeState extends State<ScanQRCode> {
         this.qrResult = qrCode.toString();
       });
     } on PlatformException {
-      qrResult = 'Failed to ead QR Code';
+      qrResult = 'Failed to read QR Code';
     }
   }
 
